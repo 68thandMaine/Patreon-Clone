@@ -1,5 +1,5 @@
 import React from 'react';
-import PatreonLogo from './patreonLogo';
+import PatreonLogo from './assets/patreonLogo';
 
 function NavBar() {
   return (

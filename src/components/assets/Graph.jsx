@@ -4,7 +4,14 @@ function Graph(){
   return(
     <svg viewBox="0 0 64 64" version="1.1"
   	xmlns="http://www.w3.org/2000/svg"
-  	>
+    className="iconStyles">
+    <style jsx>{`
+      .iconStyles{
+        width: 64px;
+        height: 64px;
+      }
+    `}
+      </style>
   	<g id="Icons-&amp;-Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
   		<g id="Illustration-/-graph-/-dark" stroke-width="2">
   			<g id="graph" transform="translate(2.000000, 7.000000)">

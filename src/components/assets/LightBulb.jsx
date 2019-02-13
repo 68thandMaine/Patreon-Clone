@@ -2,7 +2,14 @@ import React from 'react';
 
 function LightBulb(){
   return (
-    <svg viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"className="iconStyles">
+    <style jsx>{`
+      .iconStyles{
+        width: 64px;
+        height: 64px;
+      }
+    `}
+    </style>
     <g id="Icons-&amp;-Illustrations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
     <g id="Illustration-/-Lightbulb" stroke-width="2">
     <g id="Lightbulb" transform="translate(14.000000, 1.000000)">
