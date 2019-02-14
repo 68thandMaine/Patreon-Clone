@@ -1,12 +1,12 @@
 import React from 'react';
 import Money from './assets/Money';
-import LightBulb from './assets/LightBulb'
-import Graph from './assets/Graph'
+import LightBulb from './assets/LightBulb';
+import Graph from './assets/Graph';
 
 function Bragblock() {
   return(
     <div className="wrapper">
-    <style jsx>{`
+      <style jsx>{`
       .wrapper{
         font-family: America, sans-serif;
         display: grid;
@@ -25,25 +25,24 @@ function Bragblock() {
         padding-bottom: 50px;
       }
     `}
-    </style>
+      </style>
       <div>
-
         <Money/>
         <h2>A meaningful revenue stream</h2>
         <p>Fans pay you a subscription amount of their choice in exchange for exclusive experiences & behind-the-scenes content.</p>
       </div>
       <div>
-      <LightBulb />
+        <LightBulb />
         <h2>Regain creative freedom</h2>
         <p>Fans pay you a subscription amount of their choice in exchange for exclusive experiences & behind-the-scenes content.</p>
       </div>
       <div>
-      <Graph />
+        <Graph />
         <h2>Over $350 million sent to creators</h2>
         <p>Fans pay you a subscription amount of their choice in exchange for exclusive experiences & behind-the-scenes content.</p>
       </div>
     </div>
-  )
+  );
 }
 
-export default Bragblock
+export default Bragblock;

@@ -4,22 +4,23 @@ import React from 'react';
 function VideoBox() {
   return(
     <div className='wrapper'>
+      
 
       <style jsx>{`
-
       .wrapper {
         display: grid;
-        background: lightgreen;
+        background: green;
         height: 549px;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 30px;
-
         grid-template-rows: auto auto;
-
         font-family: America, sans-serif;
       }
-
+      #video{
+        z-index:0;
+      }
       #heading {
+        z-index:3;
         position: relative;
         top: 68px;
         font-size: 41px;
@@ -32,6 +33,7 @@ function VideoBox() {
       }
 
       #button-1 {
+      z-index:2;
         justify-self: end;
         background: rgb(231, 236, 240);
         color: rgb(28, 64, 89);
@@ -40,6 +42,7 @@ function VideoBox() {
       }
 
       #button-2 {
+        z-index:2;
         justify-self: start;
         background: rgb(250, 118, 100);
         color: white;
@@ -57,6 +60,7 @@ function VideoBox() {
       }
 
       button {
+        z-index:1;
         padding-left: 24px;
         padding-right: 24px;
         font-size: 16px;
